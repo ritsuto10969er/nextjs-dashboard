@@ -1,0 +1,20 @@
+name: Next.js Learning Task
+description: チュートリアルの章を進めるタスク
+title: 'feat: Chapter [番号] - [タイトル]'
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 学習のゴール
+      description: この章で何を学ぶか？
+      value: '公式チュートリアル第X章を完了し、理解する。'
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: タスク
+      options:
+        - label: チュートリアルを読む
+        - label: コーディング & コミット
+        - label: 動作確認
+        - label: セルフレビュー (PR作成後)
